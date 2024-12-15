@@ -1,0 +1,26 @@
+body{
+    background-color:white;
+   background-image:url('images/plains-mountains-1453531.jpg');
+   background-size: cover;
+   
+}
+
+form{
+    border: 2px solid whitesmoke;
+    border-radius: 10px;
+    width: 25%;
+    text-align: center;
+    margin-left: 37%;
+    margin-top: 13%;
+    font-size: 20px;
+    padding: 25px;
+
+}
+
+/* .form-content{
+    text-align: center;
+} */
+button{
+    width: 50%;
+    height: 25px;
+}

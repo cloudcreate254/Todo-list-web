@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo-list</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="todo.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg ">
+        <div class="container-fluid">
+          
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" href="http://127.0.0.1:5500/index.html">Home</a>
+            </div>
+              <div class="navbar-nav ms-auto">
+                <a class="nav-link active" aria-current="page" href="#">Todo list</a>
+                <a class="nav-link active" aria-current="page" href="http://127.0.0.1:5500/login.html">Log Out</a>
+             </div>
+            
+          </div>
+        </div>
+      </nav>
+    
+    <div class="table-responsive">
+        <table class="table" id="table-data">
+            <thead>
+                <tr>
+                    <th>Task ID</th>
+                    <th>Task Title</th>
+                    <th>Completed</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Dynamic rows will be added here -->
+            </tbody>
+        </table>
+        
+
+    </div>
+    
+
+
+
+    <script src="todo.js"></script>
+</body>
+</html>

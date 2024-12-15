@@ -1,0 +1,8 @@
+body{
+    background-image: url(images/home\ background.jpg);
+    background-size: cover;
+}
+
+.navbar {
+    background-color: transparent !important; /* Make navbar background transparent */
+  }

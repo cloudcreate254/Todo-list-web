@@ -1,0 +1,118 @@
+body{
+    background-color:white;
+   background-image:url('images/plains-mountains-1453531.jpg');
+   background-size: cover;
+   
+}
+
+form{
+    border: 2px solid whitesmoke; 
+    border-radius: 10px; 
+    width: 25%;
+    text-align: center;
+    margin-left: 37%;
+    margin-top: 13%;
+    font-size: 20px;
+    padding: 25px;
+   
+
+}
+h3{
+    text-align: center;
+    
+}
+
+
+button{
+    width: 50%;
+    height: 25px;
+
+} 
+
+
+
+button {
+    width: 50%;
+    height: 35px;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+/* body {
+    background-color: white;
+    background-image: url('images/plains-mountains-1453531.jpg');
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+} */
+
+form {
+    border: 2px solid rgba(255, 255, 255, 0.7); /* Light border */
+    border-radius: 15px;
+    width: 25%;
+    text-align: center;
+    margin: 10% auto;
+    font-size: 18px;
+    padding: 30px;
+    background: transparent !important; 
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+}
+
+h3 {
+    text-align: center;
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+label {
+    display: block;
+    text-align: left;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: black;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+
+
+button {
+    width: 90%;
+    height: 35px;
+    background-color: #304357;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: #525b64;
+}
+
+#error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 10px;
+}

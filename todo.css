@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    /* background-image: url(images/344409.jpg);
+    background-size: cover; */
+}
+
+
+.navbar {
+    background-color: transparent !important;
+    padding: 10px;
+    color: white;
+    text-align: center;
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar ul li {
+    margin: 0 15px;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+
+
+
+h1 {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.table-responsive{
+    width: 80%;
+    margin: 20px auto;
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+thead {
+    background-color: #007BFF;
+    color: white;
+}
+
+thead th {
+    padding: 10px;
+    text-align: left;
+}
+
+tbody tr {
+    border-bottom: 1px solid #ddd;
+}
+
+tbody tr.completed {
+    background-color: #d4edda;
+    text-decoration: line-through;
+}
+
+tbody td {
+    padding: 10px;
+}
+
+input[type="checkbox"] {
+    transform: scale(1.2);
+}
